@@ -13,8 +13,8 @@ Abstract: *False negatives, where semantically relevant image-text pairs are inc
 
 Dataset source can be downloaded here.
 
-- [Flickr30k](https://huggingface.co/datasets/nlphuji/flickr30k). The data partitioning we used is this [this file](dataset/my_f30k).
-- [MS COCO](https://huggingface.co/datasets/shunk031/MSCOCO). The data partitioning we used is this [this file](dataset/my_coco).
+- [Flickr30k](https://huggingface.co/datasets/nlphuji/flickr30k). The data partitioning we used is this [this file](dataset/my_f30k). (unzip new_train.zip)
+- [MS COCO](https://huggingface.co/datasets/shunk031/MSCOCO). The data partitioning we used is this [this file](dataset/my_coco). (unzip new_train.zip)
 - [CUB200](https://huggingface.co/datasets/cassiekang/cub200_dataset). The data partitioning is in [the code](dataset/cross_coco_dataset.py).
 
 ## Prepare
