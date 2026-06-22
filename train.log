@@ -1,0 +1,9 @@
+nohup: 忽略输入
+Traceback (most recent call last):
+  File "/home/jncsnlp3/SSD2/syy/TSKL_git/retrieval.py", line 19, in <module>
+    from dataset import create_loader, create_sampler, get_dataset
+  File "/home/jncsnlp3/SSD2/syy/TSKL_git/dataset/__init__.py", line 7, in <module>
+    from dataset.cross_coco_dataset import cross_coco_dataset, cross_coco_test_dataset
+  File "/home/jncsnlp3/SSD2/syy/TSKL_git/dataset/cross_coco_dataset.py", line 9, in <module>
+    from clip import clip
+ModuleNotFoundError: No module named 'clip'
