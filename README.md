@@ -25,14 +25,14 @@ Our code run on environment, the required list in [requirements.txt](requirement
 
 The Fine-tunning code is in [retrieval.py](retrieval.py). Run the code for fine-tunning:
 ```bash
-python retrieval.py --config "./configs/vitb32/flickr/cusa.yaml"
+python retrieval.py --config "./configs/vitb32/flickr/tskl.yaml"
 ```
 
 ## Evaluating
 
 The Evaluating code is in [retrieval.py](retrieval.py). Run the code for evaluating:
 ```bash
-python retrieval.py --eval --checkpoint ".pth" --config "./configs/vitb32/flickr/cusa.yaml"
+python retrieval.py --eval --checkpoint ".pth" --config "./configs/vitb32/flickr/tskl.yaml"
 ```
 ## Citation
 
